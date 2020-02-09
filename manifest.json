@@ -15,7 +15,8 @@
         "declarativeContent",
         "storage",
         "activeTab",
-        "tabs"
+        "tabs",
+        "downloads"
     ],
     "page_action": {
         "default_popup": "popup.html",

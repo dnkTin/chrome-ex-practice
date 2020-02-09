@@ -45,18 +45,13 @@
 <body>
     <div class="m3u8">
         <input type="text" id="listUrl">
-        <button id="copyM3U8">COPY</button>
+        <button onclick='copyText("listUrl")'>COPY</button>
     </div>
+    <div id="listUrlInfo">
 
-    <div>
-        <h3>TS link</h3>
-        <input type="text" id="ts">
     </div>
-    <div>
-        <button id="increase">Increase speed</button>
-        <button id="decrease">Decrease speed</button>
-    </div>
-    <script src="./popup.js"></script>
+    <!-- <script src="./popup.js"></script> -->
+    <script src="../copyText.js"></script>
 </body>
 
 </html>
